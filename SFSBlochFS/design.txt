@@ -1,0 +1,51 @@
+b=1024 blocks
+a=1024 bytes per block
+s=1 superblock
+d=31 data blocks
+z/64d=0.4844 maximum load factor
+n=31 inode blocks
+/z/32\=31 minimum inode blocks to hold maximally saturated drive
+z=a-s-d-n=961 data blocks
+1-z/a=6.15% waste
+
+BlockFS allocation:
+
+sddd dddd dddd dddd dddd dddd dddd dddd
+ffff ffff ffff ffff ffff ffff ffff fffz
+zzzz zzzz zzzz zzzz zzzz zzzz zzzz zzzz
+zzzz zzzz zzzz zzzz zzzz zzzz zzzz zzzz
+
+zzzz zzzz zzzz zzzz zzzz zzzz zzzz zzzz
+zzzz zzzz zzzz zzzz zzzz zzzz zzzz zzzz
+zzzz zzzz zzzz zzzz zzzz zzzz zzzz zzzz
+zzzz zzzz zzzz zzzz zzzz zzzz zzzz zzzz
+
+zzzz zzzz zzzz zzzz zzzz zzzz zzzz zzzz
+zzzz zzzz zzzz zzzz zzzz zzzz zzzz zzzz
+zzzz zzzz zzzz zzzz zzzz zzzz zzzz zzzz
+zzzz zzzz zzzz zzzz zzzz zzzz zzzz zzzz
+
+zzzz zzzz zzzz zzzz zzzz zzzz zzzz zzzz
+zzzz zzzz zzzz zzzz zzzz zzzz zzzz zzzz
+zzzz zzzz zzzz zzzz zzzz zzzz zzzz zzzz
+zzzz zzzz zzzz zzzz zzzz zzzz zzzz zzzz
+
+zzzz zzzz zzzz zzzz zzzz zzzz zzzz zzzz
+zzzz zzzz zzzz zzzz zzzz zzzz zzzz zzzz
+zzzz zzzz zzzz zzzz zzzz zzzz zzzz zzzz
+zzzz zzzz zzzz zzzz zzzz zzzz zzzz zzzz
+
+zzzz zzzz zzzz zzzz zzzz zzzz zzzz zzzz
+zzzz zzzz zzzz zzzz zzzz zzzz zzzz zzzz
+zzzz zzzz zzzz zzzz zzzz zzzz zzzz zzzz
+zzzz zzzz zzzz zzzz zzzz zzzz zzzz zzzz
+
+zzzz zzzz zzzz zzzz zzzz zzzz zzzz zzzz
+zzzz zzzz zzzz zzzz zzzz zzzz zzzz zzzz
+zzzz zzzz zzzz zzzz zzzz zzzz zzzz zzzz
+zzzz zzzz zzzz zzzz zzzz zzzz zzzz zzzz
+
+zzzz zzzz zzzz zzzz zzzz zzzz zzzz zzzz
+zzzz zzzz zzzz zzzz zzzz zzzz zzzz zzzz
+zzzz zzzz zzzz zzzz zzzz zzzz zzzz zzzz
+zzzz zzzz zzzz zzzz zzzz zzzz zzzz zzzz
